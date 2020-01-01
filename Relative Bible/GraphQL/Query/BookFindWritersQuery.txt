@@ -1,0 +1,9 @@
+query($osisRef:String!) {
+Book(osisRef:$osisRef) {
+writers {
+id
+name
+}
+}
+}
+

@@ -1,0 +1,65 @@
+query($id:String!) {
+Person(id:$id) {
+name
+gender
+alsoCalled
+description
+id
+birthYear {
+year
+formattedYear
+}
+deathYear {
+year
+formattedYear
+}
+birthPlace {
+id
+name
+longitude
+latitude
+}
+deathPlace {
+id
+name
+longitude
+latitude
+}
+memberOf {
+id
+name
+}
+writerOf {
+id
+title
+writers {
+name
+}
+}
+hasBeenTo {
+id
+name
+longitude
+latitude
+}
+parentOf {
+id
+name
+}
+partnerOf {
+id
+name
+}
+childOf {
+id
+name
+}
+knows {
+id
+name
+}
+verses {
+osisRef
+}
+}
+}

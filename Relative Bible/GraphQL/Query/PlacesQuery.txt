@@ -1,0 +1,14 @@
+query($osisRef:String!) {
+Place(orderBy:name_asc,filter:{verses:{osisRef_starts_with:$osisRef}}){
+id
+longitude
+latitude
+name
+alsoCalled
+featureType
+precision
+description
+source
+comments
+}
+}

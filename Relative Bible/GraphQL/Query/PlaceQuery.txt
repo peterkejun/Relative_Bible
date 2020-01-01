@@ -1,0 +1,14 @@
+query($id:String!) {
+Place(id:$id) {
+id
+longitude
+latitude
+name
+alsoCalled
+featureType
+precision
+description
+source
+comments
+}
+}

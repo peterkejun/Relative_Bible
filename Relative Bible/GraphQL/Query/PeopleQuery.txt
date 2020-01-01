@@ -1,0 +1,19 @@
+query($osisRef:String!) {
+Person(orderBy:verseCount_asc,filter:{verses:{osisRef_starts_with:$osisRef}}) {
+id
+name
+gender
+alsoCalled
+description
+birthYear {
+year
+formattedYear
+}
+deathYear {
+year
+}
+verses(orderBy:osisRef_asc,filter:{osisRef_starts_with:$osisRef}) {
+osisRef
+}
+}
+}
