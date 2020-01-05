@@ -14,5 +14,5 @@ Relative Bible is here to give you the opportunity to learn about,
 ## Visualize the Data
 
 * With more than 1000+ characters explained in detail, think of it as a giant family tree but bundled in an app. 
-* Relative Bible provides an easier way to explore this family tree with a colorful graph visualization, laying out the relationships on your screen.
+* Relative Bible provides an easier way to explore this family tree with a colorful graph data structure visualization, laying out the relationships on your screen.
 * Data is made available thanks to [Viz.Bible](https://m.viz.bible/).
