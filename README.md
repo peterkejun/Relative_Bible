@@ -1,6 +1,6 @@
 # Relative Bible: Characters and Relationships
 
-Relative Bible is an iOS mobile bible application written in Swift.
+Relative Bible is an iOS mobile bible application written in [Swift](https://developer.apple.com/swift/).
 
 ## So who are the parents and children of Moses?
 
@@ -13,6 +13,6 @@ Relative Bible is here to give you the opportunity to learn about,
 
 ## Visualize the Data
 
-With more than 1000+ characters explained in detail, think of it as a giant family tree but bundled in an app. 
-Relative Bible provides an easier way to explore this family tree with a colorful graph visualization, laying out the relationships on your screen.
-Data is made available thanks to [Vis.Bible](https://m.viz.bible/).
+* With more than 1000+ characters explained in detail, think of it as a giant family tree but bundled in an app. 
+* Relative Bible provides an easier way to explore this family tree with a colorful graph visualization, laying out the relationships on your screen.
+* Data is made available thanks to [Viz.Bible](https://m.viz.bible/).
